@@ -351,23 +351,9 @@ npm run test:verbose
 lsof -ti:5000 | xargs kill -9
 \`\`\`
 
-## Contribución
-
-1. Fork del repositorio
-2. Crear rama para feature: `git checkout -b feature/nueva-funcionalidad`
-3. Commit de cambios: `git commit -m 'Agregar nueva funcionalidad'`
-4. Push a la rama: `git push origin feature/nueva-funcionalidad`
-5. Crear Pull Request
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver archivo `LICENSE` para más detalles.
-
 ## Contacto
 
-- **Desarrollador**: [Tu Nombre]
-- **Email**: [tu-email@ejemplo.com]
-- **Repositorio**: [https://github.com/tu-usuario/api-motortega](https://github.com/tu-usuario/api-motortega)
+- **Desarrollador**: MotOrtega
 
 ## Changelog
 
