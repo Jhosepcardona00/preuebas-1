@@ -37,7 +37,7 @@ API REST completa para la gestión integral de un taller mecánico, desarrollada
 ### 1. Clonar el Repositorio
 
 \`\`\`bash
-git clone https://github.com/tu-usuario/api-motortega.git
+git clone https://github.com/kleiber123456/preuebas-1.git
 cd api-motortega
 \`\`\`
 
