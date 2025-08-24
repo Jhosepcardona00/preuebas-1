@@ -1,3 +1,33 @@
+# Automatización de Pruebas con GitHub Actions
+
+Este proyecto incluye una configuración de integración continua (CI) usando GitHub Actions para ejecutar pruebas automáticas en cada push y pull request a las ramas `main` y `develop`.
+
+## Configuración de GitHub Actions
+
+La automatización está definida en `.github/workflows/ci.yml` y realiza lo siguiente:
+
+1. Detecta eventos de push y pull request en las ramas principales.
+2. Instala dependencias usando Node.js 20.x.
+3. Ejecuta las pruebas con el comando `npm test`.
+
+## Instrucciones para activar la automatización
+
+1. Asegúrate de tener el archivo `.github/workflows/ci.yml` en tu repositorio.
+2. Las pruebas deben estar configuradas en tu proyecto y ejecutarse con `npm test`.
+3. Al hacer un push o crear un pull request, GitHub Actions ejecutará automáticamente las pruebas.
+
+## Pruebas automáticas
+
+Las pruebas que se ejecutan automáticamente son las mismas desarrolladas en la asignatura de pruebas y están ubicadas en la carpeta `__tests__`.
+
+## Ejemplo de ejecución
+
+- Realiza un cambio en el código y haz push a la rama `main` o `develop`.
+- Crea un pull request hacia `main` o `develop`.
+- GitHub Actions ejecutará las pruebas y mostrará el resultado en la pestaña "Actions" del repositorio.
+
+## Recursos
+- [Documentación oficial de GitHub Actions](https://docs.github.com/en/actions)
 # API MotOrtega - Sistema de Gestión de Taller Mecánico
 
 ## Descripción del Proyecto
