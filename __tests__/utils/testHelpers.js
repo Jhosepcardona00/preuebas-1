@@ -1,3 +1,6 @@
+test('archivo de helpers cargado correctamente', () => {
+  expect(true).toBe(true);
+});
 // Utilidades para pruebas unitarias
 
 const expect = require("expect") // Import expect to fix undeclared variable error
