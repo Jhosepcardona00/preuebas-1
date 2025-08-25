@@ -4,7 +4,7 @@ describe('Helpers', () => {
   });
 });
 
-/**
+/*****
  * Crea un mock de request para Express
  * @param {Object} options - Opciones para el request
  * @returns {Object} Mock de request
